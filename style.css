@@ -23,6 +23,7 @@ body {
 .font-weight {
     text-align: center;
     font-weight: 600;
+    font-size: 50px;
 }
 
 .donate-now {
@@ -71,9 +72,11 @@ h5 {
 
 a {
     text-decoration: none;
+    padding: 10px 40px;
     border: 2px solid black;
     border-radius: 5px;
     background-image: linear-gradient(red, yellow);
+    font-weight: 800;
 }
 
 .second {
@@ -121,4 +124,58 @@ a {
     padding-top: 10px;
     border: 5px solid olive;
     margin-right: 100px;
+}
+
+.bonous {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 10px 40px;
+
+}
+
+.bonous-area {
+    width: 50%;
+}
+
+.bonous img {
+    width: 60%;
+    padding-left: 20%;
+}
+
+.email {
+    height: 20vh;
+    background-color: brown;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    position: relative;
+}
+
+input {
+    border: none;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+button {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    background: orangered;
+    color: white;
+    padding: 0 15px;
+    border: none;
 }
