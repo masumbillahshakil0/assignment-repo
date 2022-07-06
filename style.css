@@ -1,13 +1,18 @@
+body {
+    margin: 0;
+}
+
 .back-image {
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .text-prb {
     text-align: center;
-    color: aliceblue;
+    color: white;
     padding-left: 50px;
     padding-right: 60px;
     padding-top: 50px;
@@ -16,13 +21,104 @@
 }
 
 .font-weight {
+    text-align: center;
     font-weight: 600;
 }
 
 .donate-now {
+
     text-decoration: none;
     padding-top: 5px;
     background-image: linear-gradient(red, yellow);
     border-radius: 5px;
     font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 35%;
+    padding-top: 10px;
+
+}
+
+
+.flex-container div {
+    font-size: 20px;
+    margin: 5px;
+    padding: 20px;
+
+}
+
+.div2 {
+    background-color: brown;
+    border: 3px solid black;
+}
+
+h5 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.second {
+    margin: 100px;
+}
+
+.food-shelter-edu {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.food {
+    background-color: aqua;
+    left: 20px;
+    right: 40px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 5px solid crimson;
+    margin-right: 100px;
+}
+
+.shelter {
+    background-color: gray;
+    left: 20px;
+    right: 40px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 5px solid black;
+    margin-right: 100px;
+}
+
+.education {
+    background-color: lightblue;
+    left: 20px;
+    right: 40px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 5px solid olive;
+    margin-right: 100px;
 }
