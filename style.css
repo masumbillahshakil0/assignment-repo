@@ -179,3 +179,20 @@ button {
     padding: 0 15px;
     border: none;
 }
+
+.last {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 100px;
+    height: 100px;
+
+}
+
+.humble {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.do-it {
+    color: bisque;
+}
