@@ -45,6 +45,12 @@ h2 {
     padding-right: 100px;
 }
 
+.middle-area {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .flex-container {
     display: flex;
     padding-left: 35%;
@@ -189,7 +195,7 @@ button {
 }
 
 .humble {
-    color: antiquewhite;
+    color: orangered;
     font-size: 30px;
 }
 
